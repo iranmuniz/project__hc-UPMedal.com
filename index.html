@@ -37,6 +37,9 @@
     </head>	
 
     <main>
+    <body>
+            
+        
 
         <header>
             <!-- AQUI FICA O NAVBAR -->
@@ -195,9 +198,26 @@
                 <div>
                     <div class="introdution-home">
                         <div class="letter-intro">Somos a maior loja virtual de produtos Geeks Online!</div>
-                        <div class="letter-animation">Os melhores produtos selecionados que combinam com você</>
+                        <div class="letter-animation">Os melhores produtos selecionados que combinam com você</div>
                     </div>
             </aside>
+
+            <section class="black-friday">
+                <div>
+                    <img class="black-friday__image" src="assets/img/banners/black-friday.jpg" alt="">
+                </div>
+                <div class="box-content">
+                    <div class="black-friday__space">
+                        <h2 class="show-name-site">Aproveite nossa Black Friday!</h2>
+                        <p><strong>Cadastre o seu e-mail para receber nossas ofertas!</strong></p>
+                        <form data-form>
+                            <label class="input-label" for="email"></label>
+                            <input name="email" id="email" class="input btn btn-outline-success" type="text" required data-email>
+                            <button type="submit" class="btn btn-outline-success"><b>Cadastrar</b></button>
+                        </form>
+                    </div>
+                </div>
+            </section>
 
             </div>
                 <div class="banner-letter">
@@ -434,5 +454,6 @@
         </div>
 
     </footer>
-
+    </body>
+    <script type="module" src="assets/js/cadastrarClientes-controller.js" ></script>
 </html>
